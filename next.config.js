@@ -1,12 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  output: 'standalone',  // ← BU SATIRI DEĞİŞTİRDİM
+  output: 'export',
   images: {
     unoptimized: true,
   },
-  basePath: '',
-  assetPrefix: '',
+  basePath: '/FreeDogeAI',  // ← BU SATIR ÇOK ÖNEMLİ!
+  assetPrefix: '/FreeDogeAI/',
   trailingSlash: true,
 }
 
